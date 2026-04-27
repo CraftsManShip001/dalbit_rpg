@@ -419,8 +419,8 @@ export default function BattlePage() {
     <main
       className={css({
         minH: '100vh',
-        h: { base: 'auto', lg: '100vh' },
-        overflow: { base: 'visible', lg: 'hidden' },
+        h: 'auto',
+        overflow: 'visible',
         bg: '#EAEAEA',
         color: '#111111',
         px: { base: '3', md: '5' },
@@ -430,11 +430,11 @@ export default function BattlePage() {
       <div
         className={css({
           width: 'full',
-          h: { base: 'auto', lg: '100%' },
+          h: 'auto',
           maxW: '1220px',
           mx: 'auto',
           display: 'grid',
-          gridTemplateRows: { base: 'auto auto auto', lg: 'auto auto minmax(0, 1fr)' },
+          gridTemplateRows: 'auto auto auto',
           gap: { base: '4', md: '5' },
           position: 'relative',
           animationName: isShaking ? 'shake' : 'none',
