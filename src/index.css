@@ -1,0 +1,9 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@font-face {
+  font-family: 'Cafe24PROUP';
+  src: url('/Cafe24PROUP.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
